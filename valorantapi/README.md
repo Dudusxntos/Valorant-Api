@@ -1,6 +1,6 @@
 # Valorant API
 
-Atividade de treino em Dart para consumir API externa, usando a [Valorant API](https://valorant-api.com) com recursos feitos por mim: menu interativo no terminal, classe `Agente` personalizada e busca por nome.
+Atividade de treino em Dart para consumir API externa, usando a [Valorant API](https://valorant-api.com) com recursos feitos por mim.
 
 > A API é pública e não foi criada por mim.
 
@@ -22,7 +22,7 @@ dart run
 
 > É necessário conexão com a internet para as requisições à API.
 
-## Estrutura do projeto
+### Estrutura do projeto
 
 ```
 apis/
