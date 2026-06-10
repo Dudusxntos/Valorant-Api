@@ -25,7 +25,7 @@ dart run
 ### Estrutura do projeto
 
 ```
-apis/
+valorantapi/
 ├── bin/
 │   └── apis.dart       # Ponto de entrada, menu e lógica principal
 ├── lib/
