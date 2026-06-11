@@ -23,10 +23,10 @@ Future<void> main() async {
     List<dynamic> listaAgente = await buscarAgentesApi();
 
     for (var item in listaAgente) {
-      String nome = item['displayName'] ?? 'Sem informação';
-      String descricao = item['description'] ?? 'Sem descrição';
-      String funcao = item['role']?['displayName'] ?? 'Sem função';
-      List<dynamic> skills = item['abilities'] ?? [];
+      String nome = item['displayName'];
+      String descricao = item['description'];
+      String funcao = item['role']?['displayName'];
+      List<dynamic> skills = item['abilities'];
       List<String> listaHabilidades = [];
 
       for (var habilidade in skills) {
